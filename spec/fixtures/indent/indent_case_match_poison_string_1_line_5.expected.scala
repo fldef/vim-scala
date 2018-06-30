@@ -1,7 +1,7 @@
 object Main {
   5 match {
         case 5 =>
-    "this string breaks indenting because of this character here: {"
+    "ensure indenting isn't broken by this character here: {"
         case _ => ()
   }
 }
